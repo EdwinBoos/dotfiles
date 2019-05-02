@@ -3,10 +3,10 @@
 " Maintainer: Edwin Boos
 " Last change:  2019 Jan 26
 " To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"             for Amiga:  s:.vimrc
+"  for Unix and OS/2:  ~/.vimrc
+"  for Amiga:  s:.vimrc
 "  for MS-DOS and Win32:  $VIM\_vimrc
-"           for OpenVMS:  sys$login:.vimrc
+"  for OpenVMS:  sys$login:.vimrc
 
 " Get the defaults that most users want.
 source $VIMRUNTIME/defaults.vim
