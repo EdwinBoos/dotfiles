@@ -1,7 +1,7 @@
 
 "
 " Maintainer: Edwin Boos
-" Last change:  2019 Jan 26
+" Last change:  2021 Feb
 " To use it, copy it to
 "  for Unix and OS/2:  ~/.vimrc
 "  for Amiga:  s:.vimrc
@@ -15,6 +15,7 @@ set nowrap
 set nobackup
 set noundofile
 set noswapfile
+set encoding=utf-8
 set fileencoding=utf8
 
 if &t_Co > 2 || has("gui_running")
@@ -39,4 +40,4 @@ augroup END
 if has('syntax') && has('eval')
  packadd! matchit
 endif
-set shell=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe\ -executionpolicy\ bypass^M
+set shell=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe\ -ExecutionPolicy\ Bypass
